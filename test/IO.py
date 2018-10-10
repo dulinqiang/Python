@@ -1,0 +1,5 @@
+fo=open("C:/Users/Administrator/Desktop/abc.txt",'a+')
+str=fo.read(20)
+print("读入的内容为:",str)
+fo.write("333")
+fo.close()
